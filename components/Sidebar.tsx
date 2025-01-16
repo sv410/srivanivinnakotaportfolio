@@ -15,7 +15,7 @@ export default function Sidebar() {
         <div className="flex flex-col items-center text-center">
           <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4 border-2 border-purple-500/20">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/avatar-3-SilObmZDWYpMZXB9t81KkQwcTy3pJK.png"
+              src="/srivaniprofile.jpg"
               alt="Srivani Vinnakota"
               fill
               className="object-cover"
@@ -54,4 +54,3 @@ export default function Sidebar() {
     </aside>
   )
 }
-
