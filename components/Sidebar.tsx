@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Github, Linkedin, Mail, FileText, Code } from 'lucide-react'
+import { Github, Linkedin, Mail, FileText } from 'lucide-react'
 
 export default function Sidebar() {
   const handleResumeClick = () => {
@@ -43,10 +43,6 @@ export default function Sidebar() {
             <a href="https://linkedin.com/in/Srivanivinnakota4" className="flex items-center p-2 hover:bg-purple-500/10 rounded-lg transition-colors">
               <Linkedin className="h-5 w-5 mr-3 text-purple-400" />
               <span className="text-sm text-purple-200">linkedin</span>
-            </a>
-            <a href="https://leetcode.com/u/srivani401/" className="flex items-center p-2 hover:bg-purple-500/10 rounded-lg transition-colors">
-              <Code className="h-5 w-5 mr-3 text-purple-400" />
-              <span className="text-sm text-purple-200">leetcode</span>
             </a>
           </div>
         </div>
