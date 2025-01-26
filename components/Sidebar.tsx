@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, FileText, Code } from 'lucide-react'
 export default function Sidebar() {
   const handleResumeClick = () => {
     // The PDF should be stored in the public folder
-    window.open('/vsrivani_resume.pdf', '_blank')
+    window.open('/SRIV_RESUME_.pdf', '_blank')
   }
 
   return (
